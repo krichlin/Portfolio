@@ -1,18 +1,18 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "Git and NPM",
+  "description": "Web Portolio Page for Kenneth Richlin",
   "main": "/js/scripts.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"npm run lite",
-    "lite":"lite-server"
+    "start": "npm run lite",
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/krichlin/Portfolio.git"
   },
-  "author": "",
+  "author": "Kenneth Richlin",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/krichlin/Portfolio/issues"
@@ -20,5 +20,10 @@
   "homepage": "https://github.com/krichlin/Portfolio#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
   }
 }
